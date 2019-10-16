@@ -1,0 +1,648 @@
+EXPORTS
+    _Z11wxPostEventP12wxEvtHandlerRK7wxEvent @1
+    _Z16wxGet_wxConvLibcv @2
+    _Z17wxNewEventFunctorRKiM12wxEvtHandlerFvR7wxEventEPS1_ @3
+    _Z18wxCheckDynamicCastP8wxObjectP11wxClassInfo @4
+    _Z22wxNewEventTableFunctorI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventEP20wxEventFunctorMethodIT_T0_T1_S7_ERKS6_MS7_FvRS8_E @5
+    _Z22wxNewEventTableFunctorI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventEP20wxEventFunctorMethodIT_T0_T1_S7_ERKS6_MS7_FvRS8_E @6
+    _Z22wxNewEventTableFunctorI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventEP20wxEventFunctorMethodIT_T0_T1_S7_ERKS6_MS7_FvRS8_E @7
+    _Z22wxNewEventTableFunctorI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventEP20wxEventFunctorMethodIT_T0_T1_S7_ERKS6_MS7_FvRS8_E @8
+    _Z22wxNewEventTableFunctorRKiM12wxEvtHandlerFvR7wxEventE @9
+    _Z5wxMaxIiiEN24wxImplicitConversionTypeIT_T0_E5valueES1_S2_ @10
+    _ZN10wxClientDCD2Ev @11
+    _ZN10wxFontBaseC2ERKS_ @12
+    _ZN10wxFontBaseC2Ev @13
+    _ZN10wxFontBaseaSERKS_ @14
+    _ZN10wxWindowDCD2Ev @15
+    _ZN11wxClassInfoC1EPKwPKS_S3_iPFP8wxObjectvE @16
+    _ZN11wxFoldPanelC1EP15wxFoldPanelItem @17
+    _ZN11wxFoldPanelaSERKS_ @18
+    _ZN11wxFrameBase15PositionMenuBarEv @19
+    _ZN11wxGDIObject12FreeResourceEb @20
+    _ZN11wxGDIObject15RealizeResourceEv @21
+    _ZN11wxGDIObjectC2ERKS_ @22
+    _ZN11wxGDIObjectC2Ev @23
+    _ZN11wxGDIObjectD2Ev @24
+    _ZN11wxGDIObjectaSERKS_ @25
+    _ZN11wxImageListC1Eiibi @26
+    _ZN11wxPanelBaseC2Ev @27
+    _ZN11wxPanelBaseD2Ev @28
+    _ZN12wxCaptionBar12OnMouseEventER12wxMouseEvent @29
+    _ZN12wxCaptionBar13sm_eventTableE @30 DATA
+    _ZN12wxCaptionBar16DrawSingleColourER4wxDCRK6wxRect @31
+    _ZN12wxCaptionBar16RedrawIconBitmapEv @32
+    _ZN12wxCaptionBar17ApplyCaptionStyleERK17wxCaptionBarStyleb @33
+    _ZN12wxCaptionBar17sm_eventHashTableE @34 DATA
+    _ZN12wxCaptionBar19DrawSingleRectangleER4wxDCRK6wxRect @35
+    _ZN12wxCaptionBar20DrawVerticalGradientER4wxDCRK6wxRect @36
+    _ZN12wxCaptionBar20sm_eventTableEntriesE @37 DATA
+    _ZN12wxCaptionBar21FillCaptionBackgroundER9wxPaintDC @38
+    _ZN12wxCaptionBar22DrawHorizontalGradientER4wxDCRK6wxRect @39
+    _ZN12wxCaptionBar6ExpandEv @40
+    _ZN12wxCaptionBar6OnCharER10wxKeyEvent @41
+    _ZN12wxCaptionBar6OnSizeER11wxSizeEvent @42
+    _ZN12wxCaptionBar7OnPaintER12wxPaintEvent @43
+    _ZN12wxCaptionBar8CollapseEv @44
+    _ZN12wxCaptionBarC1EP8wxWindowRK8wxStringP11wxImageListiRK17wxCaptionBarStyleRK7wxPointRK6wxSizel @45
+    _ZN12wxCaptionBarC2EP8wxWindowRK8wxStringP11wxImageListiRK17wxCaptionBarStyleRK7wxPointRK6wxSizel @46
+    _ZN12wxCaptionBarD0Ev @47
+    _ZN12wxCaptionBarD1Ev @48
+    _ZN12wxCaptionBarD2Ev @49
+    _ZN12wxColourBase3SetEhhhh @50
+    _ZN12wxColourBaseC2ERKS_ @51
+    _ZN12wxColourBaseC2Ev @52
+    _ZN12wxColourBaseD2Ev @53
+    _ZN12wxColourBaseaSERKS_ @54
+    _ZN12wxEvtHandler12TryValidatorER7wxEvent @55
+    _ZN12wxEvtHandler15AddPendingEventERK7wxEvent @56
+    _ZN12wxEvtHandler7ConnectEiMS_FvR7wxEventEP8wxObjectPS_ @57
+    _ZN12wxEvtHandler7ConnectEiiiMS_FvR7wxEventEP8wxObjectPS_ @58
+    _ZN12wxEvtHandler9TryParentER7wxEvent @59
+    _ZN12wxRefCounter6IncRefEv @60
+    _ZN12wxWindowBase11RefreshRectERK6wxRectb @61
+    _ZN12wxWindowBase11SetCanFocusEb @62
+    _ZN12wxWindowBase12GetValidatorEv @63
+    _ZN12wxWindowBase12SetSizeHintsEiiiiii @64
+    _ZN12wxWindowBase14SetTransparentEh @65
+    _ZN12wxWindowBase15SetThemeEnabledEb @66
+    _ZN12wxWindowBase16SetMaxClientSizeERK6wxSize @67
+    _ZN12wxWindowBase16SetMinClientSizeERK6wxSize @68
+    _ZN12wxWindowBase17CanSetTransparentEv @69
+    _ZN12wxWindowBase18SetInitialBestSizeERK6wxSize @70
+    _ZN12wxWindowBase19SetAcceleratorTableERK18wxAcceleratorTable @71
+    _ZN12wxWindowBase20AlwaysShowScrollbarsEbb @72
+    _ZN12wxWindowBase24HasTransparentBackgroundEv @73
+    _ZN12wxWindowBase25ProcessWindowEventLocallyER7wxEvent @74
+    _ZN12wxWindowBase31GetMainWindowOfCompositeControlEv @75
+    _ZN12wxWindowBase7SetNameERK8wxString @76
+    _ZN12wxWindowBase7SetSizeERK6wxRecti @77
+    _ZN12wxWindowBase7SetSizeERK6wxSize @78
+    _ZN12wxWindowBase7SetSizeEii @79
+    _ZN12wxWindowBase7SetSizeEiiiii @80
+    _ZN12wxWindowBase9PrepareDCER4wxDC @81
+    _ZN14wxArrayPtrVoid3endEv @82
+    _ZN14wxArrayPtrVoid5beginEv @83
+    _ZN14wxArrayPtrVoid5eraseEPPvS1_ @84
+    _ZN14wxArrayPtrVoid6insertEPPvjRKS0_ @85
+    _ZN14wxArrayPtrVoid9push_backERKPv @86
+    _ZN14wxArrayPtrVoidC2Ev @87
+    _ZN14wxArrayPtrVoidD2Ev @88
+    _ZN14wxCommandEventC2ERKS_ @89
+    _ZN14wxCommandEventD2Ev @90
+    _ZN14wxEventFunctorC2Ev @91
+    _ZN14wxFoldPanelBar11OnSizePanelER11wxSizeEvent @92
+    _ZN14wxFoldPanelBar12AddFoldPanelERK8wxStringbRK17wxCaptionBarStyle @93
+    _ZN14wxFoldPanelBar12ms_classInfoE @94 DATA
+    _ZN14wxFoldPanelBar13sm_eventTableE @95 DATA
+    _ZN14wxFoldPanelBar14OnPressCaptionER17wxCaptionBarEvent @96
+    _ZN14wxFoldPanelBar14wxCreateObjectEv @97
+    _ZN14wxFoldPanelBar15GetPanelsLengthERiS0_ @98
+    _ZN14wxFoldPanelBar17RefreshPanelsFromEP15wxFoldPanelItem @99
+    _ZN14wxFoldPanelBar17RefreshPanelsFromEj @100
+    _ZN14wxFoldPanelBar17sm_eventHashTableE @101 DATA
+    _ZN14wxFoldPanelBar18AddFoldPanelWindowERK11wxFoldPanelP8wxWindowiiii @102
+    _ZN14wxFoldPanelBar20sm_eventTableEntriesE @103 DATA
+    _ZN14wxFoldPanelBar21AddFoldPanelSeperatorERK11wxFoldPanelRK8wxColouriii @104
+    _ZN14wxFoldPanelBar23RedisplayFoldPanelItemsEv @105
+    _ZN14wxFoldPanelBar27RepositionCollapsedToBottomEv @106
+    _ZN14wxFoldPanelBar6CreateEP8wxWindowiRK7wxPointRK6wxSizell @107
+    _ZN14wxFoldPanelBar6ExpandERK11wxFoldPanel @108
+    _ZN14wxFoldPanelBar7OnPaintER12wxPaintEvent @109
+    _ZN14wxFoldPanelBar8CollapseERK11wxFoldPanel @110
+    _ZN14wxFoldPanelBarC1EP8wxWindowiRK7wxPointRK6wxSizell @111
+    _ZN14wxFoldPanelBarC1Ev @112
+    _ZN14wxFoldPanelBarC2EP8wxWindowiRK7wxPointRK6wxSizell @113
+    _ZN14wxFoldPanelBarC2Ev @114
+    _ZN14wxFoldPanelBarD0Ev @115
+    _ZN14wxFoldPanelBarD1Ev @116
+    _ZN14wxFoldPanelBarD2Ev @117
+    _ZN15wxFoldPanelItem10RepositionEi @118
+    _ZN15wxFoldPanelItem11ResizePanelEv @119
+    _ZN15wxFoldPanelItem12AddSeparatorERK8wxColouriii @120
+    _ZN15wxFoldPanelItem12ms_classInfoE @121 DATA
+    _ZN15wxFoldPanelItem13sm_eventTableE @122 DATA
+    _ZN15wxFoldPanelItem14OnPressCaptionER17wxCaptionBarEvent @123
+    _ZN15wxFoldPanelItem17sm_eventHashTableE @124 DATA
+    _ZN15wxFoldPanelItem20sm_eventTableEntriesE @125 DATA
+    _ZN15wxFoldPanelItem6ExpandEv @126
+    _ZN15wxFoldPanelItem6OnSizeER11wxSizeEvent @127
+    _ZN15wxFoldPanelItem7OnPaintER12wxPaintEvent @128
+    _ZN15wxFoldPanelItem8CollapseEv @129
+    _ZN15wxFoldPanelItem9AddWindowEP8wxWindowiiii @130
+    _ZN15wxFoldPanelItemC1EP8wxWindowRK8wxStringP11wxImageListbRK17wxCaptionBarStyle @131
+    _ZN15wxFoldPanelItemC2EP8wxWindowRK8wxStringP11wxImageListbRK17wxCaptionBarStyle @132
+    _ZN15wxFoldPanelItemD0Ev @133
+    _ZN15wxFoldPanelItemD1Ev @134
+    _ZN15wxFoldPanelItemD2Ev @135
+    _ZN16wxFoldWindowItem10ResizeItemEib @136
+    _ZN16wxFoldWindowItemC1EP8wxWindowiiii @137
+    _ZN16wxFoldWindowItemC1ERKS_ @138
+    _ZN16wxFoldWindowItemC1EiRK8wxColouriii @139
+    _ZN16wxFoldWindowItemD1Ev @140
+    _ZN16wxTypeIdentifierC1EPKc @141
+    _ZN16wxTypeIdentifiereqERKS_ @142
+    _ZN16wxTypeIdentifierneERKS_ @143
+    _ZN17wxCaptionBarEvent12ms_classInfoE @144 DATA
+    _ZN17wxCaptionBarEvent13SetCaptionBarEP12wxCaptionBar @145
+    _ZN17wxCaptionBarEvent14wxCreateObjectEv @146
+    _ZN17wxCaptionBarEvent6SetTagEPv @147
+    _ZN17wxCaptionBarEventC1ERKS_ @148
+    _ZN17wxCaptionBarEventC1Eii @149
+    _ZN17wxCaptionBarEventC2ERKS_ @150
+    _ZN17wxCaptionBarEventD0Ev @151
+    _ZN17wxCaptionBarEventD1Ev @152
+    _ZN17wxCaptionBarStyle13ResetDefaultsEv @153
+    _ZN17wxCaptionBarStyle14SetCaptionFontERK6wxFont @154
+    _ZN17wxCaptionBarStyle14SetFirstColourERK8wxColour @155
+    _ZN17wxCaptionBarStyle15SetCaptionStyleEi @156
+    _ZN17wxCaptionBarStyle15SetSecondColourERK8wxColour @157
+    _ZN17wxCaptionBarStyle16SetCaptionColourERK8wxColour @158
+    _ZN17wxCaptionBarStyleC1ERKS_ @159
+    _ZN17wxCaptionBarStyleC1Ev @160
+    _ZN17wxCaptionBarStyleD1Ev @161
+    _ZN17wxCaptionBarStyleaSERKS_ @162
+    _ZN17wxEventTableEntryC1ERKiiiP14wxEventFunctorP8wxObject @163
+    _ZN17wxEventTableEntryD1Ev @164
+    _ZN17wxMDIClientWindow4InitEv @165
+    _ZN17wxMDIClientWindowC1Ev @166
+    _ZN18wxAcceleratorTableaSERKS_ @167
+    _ZN18wxBaseArrayPtrVoid3endEv @168
+    _ZN18wxBaseArrayPtrVoid5beginEv @169
+    _ZN18wxBaseArrayPtrVoid5clearEv @170
+    _ZN18wxBaseArrayPtrVoid5eraseEPPKvS2_ @171
+    _ZN18wxBaseArrayPtrVoid6insertEPPKvjRKS1_ @172
+    _ZN18wxBaseArrayPtrVoid9push_backERKPKv @173
+    _ZN18wxControlContainerD0Ev @174
+    _ZN18wxControlContainerD1Ev @175
+    _ZN19wxNavigationEnabledI8wxWindowE11RemoveChildEP12wxWindowBase @176
+    _ZN19wxNavigationEnabledI8wxWindowE12OnChildFocusER17wxChildFocusEvent @177
+    _ZN19wxNavigationEnabledI8wxWindowE15OnNavigationKeyER20wxNavigationKeyEvent @178
+    _ZN19wxNavigationEnabledI8wxWindowE7OnFocusER12wxFocusEvent @179
+    _ZN19wxNavigationEnabledI8wxWindowE8AddChildEP12wxWindowBase @180
+    _ZN19wxNavigationEnabledI8wxWindowE8SetFocusEv @181
+    _ZN19wxNavigationEnabledI8wxWindowEC2Ev @182
+    _ZN19wxNavigationEnabledI8wxWindowED0Ev @183
+    _ZN19wxNavigationEnabledI8wxWindowED1Ev @184
+    _ZN19wxNavigationEnabledI8wxWindowED2Ev @185
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E20CheckHandlerArgumentEPS4_ @186
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_EC1EMS3_FvRS4_EPS3_ @187
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_ED0Ev @188
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_ED1Ev @189
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_EclEPS3_RS4_ @190
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E20CheckHandlerArgumentEPS4_ @191
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_EC1EMS3_FvRS4_EPS3_ @192
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_ED0Ev @193
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_ED1Ev @194
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_EclEPS3_RS4_ @195
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E20CheckHandlerArgumentEPS4_ @196
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_EC1EMS3_FvRS4_EPS3_ @197
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_ED0Ev @198
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_ED1Ev @199
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_EclEPS3_RS4_ @200
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E20CheckHandlerArgumentEPS4_ @201
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_EC1EMS3_FvRS4_EPS3_ @202
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_ED0Ev @203
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_ED1Ev @204
+    _ZN20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_EclEPS3_RS4_ @205
+    _ZN20wxFoldPanelItemArray3AddEP15wxFoldPanelItemj @206
+    _ZN20wxFoldPanelItemArrayC1Ev @207
+    _ZN20wxFoldPanelItemArrayD1Ev @208
+    _ZN20wxMDIParentFrameBase12ArrangeIconsEv @209
+    _ZN20wxMDIParentFrameBase13SetWindowMenuEP6wxMenu @210
+    _ZN20wxMDIParentFrameBase14OnCreateClientEv @211
+    _ZN20wxMDIParentFrameBase14SetActiveChildEP15wxMDIChildFrame @212
+    _ZN20wxMDIParentFrameBase4TileE13wxOrientation @213
+    _ZN20wxMDIParentFrameBase7CascadeEv @214
+    _ZN20wxMDIParentFrameBase9TryBeforeER7wxEvent @215
+    _ZN20wxNonOwnedWindowBase17InheritAttributesEv @216
+    _ZN20wxObjectEventFunctorC1EM12wxEvtHandlerFvR7wxEventEPS0_ @217
+    _ZN20wxObjectEventFunctorD0Ev @218
+    _ZN20wxObjectEventFunctorD1Ev @219
+    _ZN20wxObjectEventFunctorclEP12wxEvtHandlerR7wxEvent @220
+    _ZN20wxThreadHelperThread5EntryEv @221
+    _ZN20wxThreadHelperThreadD0Ev @222
+    _ZN20wxThreadHelperThreadD1Ev @223
+    _ZN20wxTopLevelWindowBase14OSXSetModifiedEb @224
+    _ZN20wxTopLevelWindowBase22SetRepresentedFilenameERK8wxString @225
+    _ZN20wxTopLevelWindowBase8IsActiveEv @226
+    _ZN21wxEventTableEntryBaseC2EiiP14wxEventFunctorP8wxObject @227
+    _ZN21wxEventTableEntryBaseD2Ev @228
+    _ZN21wxFoldWindowItemArray3AddEPK16wxFoldWindowItem @229
+    _ZN21wxFoldWindowItemArray3AddERK16wxFoldWindowItemj @230
+    _ZN21wxFoldWindowItemArray5ClearEv @231
+    _ZN21wxFoldWindowItemArray5EmptyEv @232
+    _ZN21wxFoldWindowItemArray6DoCopyERKS_ @233
+    _ZN21wxFoldWindowItemArray6InsertERK16wxFoldWindowItemjj @234
+    _ZN21wxFoldWindowItemArray7DoEmptyEv @235
+    _ZN21wxFoldWindowItemArray8RemoveAtEjj @236
+    _ZN21wxFoldWindowItemArrayC1ERKS_ @237
+    _ZN21wxFoldWindowItemArrayC1Ev @238
+    _ZN21wxFoldWindowItemArrayC2ERKS_ @239
+    _ZN21wxFoldWindowItemArrayD1Ev @240
+    _ZN21wxFoldWindowItemArrayD2Ev @241
+    _ZN21wxFoldWindowItemArrayaSERKS_ @242
+    _ZN21wxMDIClientWindowBaseC2Ev @243
+    _ZN22wxControlContainerBase18SetContainerWindowEP8wxWindow @244
+    _ZN22wxControlContainerBaseD2Ev @245
+    _ZN22wxScopedCharTypeBufferIwE11GetNullDataEv @246
+    _ZN22wxScopedCharTypeBufferIwE4DataD1Ev @247
+    _ZN22wxScopedCharTypeBufferIwE6DecRefEv @248
+    _ZN22wxScopedCharTypeBufferIwE6IncRefEv @249
+    _ZN22wxScopedCharTypeBufferIwEC1ERKS0_ @250
+    _ZN22wxScopedCharTypeBufferIwED1Ev @251
+    _ZN23wxCriticalSectionLockerC1ER17wxCriticalSection @252
+    _ZN23wxCriticalSectionLockerD1Ev @253
+    _ZN24wxEventBasicPayloadMixinC2ERKS_ @254
+    _ZN24wxEventBasicPayloadMixinD2Ev @255
+    _ZN4wxDC13DrawRectangleEiiii @256
+    _ZN4wxDC15DrawRotatedTextERK8wxStringiid @257
+    _ZN4wxDC6SetPenERK5wxPen @258
+    _ZN4wxDC7SetFontERK6wxFont @259
+    _ZN4wxDC8DrawLineEiiii @260
+    _ZN4wxDC8DrawTextERK8wxStringii @261
+    _ZN4wxDC8SetBrushERK7wxBrush @262
+    _ZN4wxDCD2Ev @263
+    _ZN5wxPenD1Ev @264
+    _ZN6wxFontC1ERKS_ @265
+    _ZN6wxFontC1Ev @266
+    _ZN6wxFontaSERKS_ @267
+    _ZN6wxRect4SetXEi @268
+    _ZN6wxRect4SetYEi @269
+    _ZN6wxRect8SetWidthEi @270
+    _ZN6wxRect9SetHeightEi @271
+    _ZN6wxRectC1Eiiii @272
+    _ZN6wxSize8SetWidthEi @273
+    _ZN6wxSize9SetHeightEi @274
+    _ZN6wxSizeC1Eii @275
+    _ZN6wxSizeC1Ev @276
+    _ZN7wxBrush8SetStyleEi @277
+    _ZN7wxEvent4SkipEb @278
+    _ZN7wxEventD2Ev @279
+    _ZN7wxFrame19MSWTranslateMessageEP6tagMSG @280
+    _ZN7wxPanelC1EP8wxWindowiRK7wxPointRK6wxSizelRK8wxString @281
+    _ZN7wxPanelC2Ev @282
+    _ZN7wxPanelD2Ev @283
+    _ZN7wxPointC1Eii @284
+    _ZN7wxPointC1Ev @285
+    _ZN8wxColourC1ERKS_ @286
+    _ZN8wxColourC1Ev @287
+    _ZN8wxColourD1Ev @288
+    _ZN8wxColouraSERKS_ @289
+    _ZN8wxObjectC2ERKS_ @290
+    _ZN8wxObjectC2Ev @291
+    _ZN8wxObjectD2Ev @292
+    _ZN8wxObjectaSERKS_ @293
+    _ZN8wxString15ConvertedBufferIcEC1Ev @294
+    _ZN8wxString15ConvertedBufferIcED1Ev @295
+    _ZN8wxString17SubstrBufFromTypeI22wxScopedCharTypeBufferIwEED1Ev @296
+    _ZN8wxString7ImplStrEPKcRK8wxMBConv @297
+    _ZN8wxStringC1EPKc @298
+    _ZN8wxStringC1ERKS_ @299
+    _ZN8wxStringD1Ev @300
+    _ZN8wxStringaSERKS_ @301
+    _ZN8wxThread6OnExitEv @302
+    _ZN8wxThread6OnKillEv @303
+    _ZN8wxThread8OnDeleteEv @304
+    _ZN8wxWindow13MSWPrintChildEP5HDC__PS_ @305
+    _ZN8wxWindow14HideWithEffectE12wxShowEffectj @306
+    _ZN8wxWindow14MSWEraseBgHookEP5HDC__ @307
+    _ZN8wxWindow14ShowWithEffectE12wxShowEffectj @308
+    _ZN8wxWindow19MSWGetCustomBgBrushEv @309
+    _ZN8wxWindow20MSWEndDeferWindowPosEv @310
+    _ZN8wxWindow28MSWShouldPropagatePrintChildEv @311
+    _ZN8wxWindowC2EPS_iRK7wxPointRK6wxSizelRK8wxString @312
+    _ZN8wxWindowC2Ev @313
+    _ZN9wxPaintDCD1Ev @314
+    _ZN9wxPenBaseD2Ev @315
+    _ZN9wxPrivate11HandlerImplI12wxEvtHandler7wxEventLb1EE12IsEvtHandlerEv @316
+    _ZN9wxPrivate11HandlerImplI12wxEvtHandler7wxEventLb1EE18ConvertToEvtMethodEMS1_FvRS2_E @317
+    _ZN9wxPrivate11HandlerImplI12wxEvtHandler7wxEventLb1EE19ConvertToEvtHandlerEPS1_ @318
+    _ZN9wxPrivate11HandlerImplI12wxEvtHandler7wxEventLb1EE21ConvertFromEvtHandlerEPS1_ @319
+    _ZN9wxPrivate17UntypedBufferDataD2Ev @320
+    _ZNK11wxClassInfo8IsKindOfEPKS_ @321
+    _ZNK11wxFoldPanel4IsOkEv @322
+    _ZNK11wxFoldPanel7GetItemEv @323
+    _ZNK11wxFrameBase10GetMenuBarEv @324
+    _ZNK11wxFrameBase10GetToolBarEv @325
+    _ZNK11wxFrameBase12GetStatusBarEv @326
+    _ZNK11wxFrameBase17IsClientAreaChildEPK8wxWindow @327
+    _ZNK11wxGDIObject12CloneRefDataEPK12wxRefCounter @328
+    _ZNK11wxGDIObject13CreateRefDataEv @329
+    _ZNK11wxGDIObject17GetResourceHandleEv @330
+    _ZNK11wxGDIObject4IsOkEv @331
+    _ZNK11wxGDIObject6IsFreeEv @332
+    _ZNK11wxSizeEvent7GetSizeEv @333
+    _ZNK12wxCaptionBar10IsVerticalEv @334
+    _ZNK12wxCaptionBar11IsCollapsedEv @335
+    _ZNK12wxCaptionBar13DoGetBestSizeEv @336
+    _ZNK12wxCaptionBar13GetEventTableEv @337
+    _ZNK12wxCaptionBar17GetEventHashTableEv @338
+    _ZNK12wxMouseEvent10LeftDClickEv @339
+    _ZNK12wxMouseEvent8LeftDownEv @340
+    _ZNK12wxMouseState11GetPositionEv @341
+    _ZNK12wxWindowBase10GetMaxSizeEv @342
+    _ZNK12wxWindowBase10GetMinSizeEv @343
+    _ZNK12wxWindowBase10GetToolTipEv @344
+    _ZNK12wxWindowBase10HasCaptureEv @345
+    _ZNK12wxWindowBase10IsRetainedEv @346
+    _ZNK12wxWindowBase11GetPositionEPiS0_ @347
+    _ZNK12wxWindowBase12AcceptsFocusEv @348
+    _ZNK12wxWindowBase12CanBeFocusedEv @349
+    _ZNK12wxWindowBase13GetClientSizeEv @350
+    _ZNK12wxWindowBase13GetDropTargetEv @351
+    _ZNK12wxWindowBase13GetTextExtentERK8wxStringPiS3_S3_S3_PK6wxFont @352
+    _ZNK12wxWindowBase15GetEventHandlerEv @353
+    _ZNK12wxWindowBase15GetThemeEnabledEv @354
+    _ZNK12wxWindowBase16GetMaxClientSizeEv @355
+    _ZNK12wxWindowBase16GetMinClientSizeEv @356
+    _ZNK12wxWindowBase16GetWindowVariantEv @357
+    _ZNK12wxWindowBase16HasMultiplePagesEv @358
+    _ZNK12wxWindowBase17IsClientAreaChildEPK8wxWindow @359
+    _ZNK12wxWindowBase18GetBestVirtualSizeEv @360
+    _ZNK12wxWindowBase18GetWindowStyleFlagEv @361
+    _ZNK12wxWindowBase19CanApplyThemeBorderEv @362
+    _ZNK12wxWindowBase19DoGetBestClientSizeEv @363
+    _ZNK12wxWindowBase20DoGetBestClientWidthEi @364
+    _ZNK12wxWindowBase20GetDefaultAttributesEv @365
+    _ZNK12wxWindowBase20ShouldInheritColoursEv @366
+    _ZNK12wxWindowBase21DoGetBestClientHeightEi @367
+    _ZNK12wxWindowBase21GetContentScaleFactorEv @368
+    _ZNK12wxWindowBase21IsTopNavigationDomainEv @369
+    _ZNK12wxWindowBase22CanBeOutsideClientAreaEv @370
+    _ZNK12wxWindowBase22IsScrollbarAlwaysShownEi @371
+    _ZNK12wxWindowBase23AcceptsFocusRecursivelyEv @372
+    _ZNK12wxWindowBase24AcceptsFocusFromKeyboardEv @373
+    _ZNK12wxWindowBase24InheritsBackgroundColourEv @374
+    _ZNK12wxWindowBase7GetNameEv @375
+    _ZNK12wxWindowBase7GetRectEv @376
+    _ZNK12wxWindowBase7GetSizeEPiS0_ @377
+    _ZNK12wxWindowBase7GetSizeEv @378
+    _ZNK12wxWindowBase7HasFlagEi @379
+    _ZNK12wxWindowBase7IsShownEv @380
+    _ZNK12wxWindowBase9GetParentEv @381
+    _ZNK14wxArrayPtrVoidixEj @382
+    _ZNK14wxCommandEvent16GetEventCategoryEv @383
+    _ZNK14wxEventTypeTagI10wxKeyEventEcvRKiEv @384
+    _ZNK14wxEventTypeTagI11wxSizeEventEcvRKiEv @385
+    _ZNK14wxEventTypeTagI12wxFocusEventEcvRKiEv @386
+    _ZNK14wxEventTypeTagI12wxMouseEventEcvRKiEv @387
+    _ZNK14wxEventTypeTagI12wxPaintEventEcvRKiEv @388
+    _ZNK14wxEventTypeTagI14wxCommandEventEcvRKiEv @389
+    _ZNK14wxEventTypeTagI15wxUpdateUIEventEcvRKiEv @390
+    _ZNK14wxEventTypeTagI17wxChildFocusEventEcvRKiEv @391
+    _ZNK14wxEventTypeTagI20wxNavigationKeyEventEcvRKiEv @392
+    _ZNK14wxFoldPanelBar10IsVerticalEv @393
+    _ZNK14wxFoldPanelBar12GetClassInfoEv @394
+    _ZNK14wxFoldPanelBar13GetEventTableEv @395
+    _ZNK14wxFoldPanelBar17GetEventHashTableEv @396
+    _ZNK15wxFoldPanelItem10GetItemPosEv @397
+    _ZNK15wxFoldPanelItem10IsExpandedEv @398
+    _ZNK15wxFoldPanelItem10IsVerticalEv @399
+    _ZNK15wxFoldPanelItem12GetClassInfoEv @400
+    _ZNK15wxFoldPanelItem13GetEventTableEv @401
+    _ZNK15wxFoldPanelItem14GetPanelLengthEv @402
+    _ZNK15wxFoldPanelItem16GetCaptionLengthEv @403
+    _ZNK15wxFoldPanelItem17GetEventHashTableEv @404
+    _ZNK16wxFoldWindowItem10GetSpacingEv @405
+    _ZNK16wxFoldWindowItem13GetLineColourEv @406
+    _ZNK16wxFoldWindowItem13GetLineLengthEv @407
+    _ZNK16wxFoldWindowItem14GetLeftSpacingEv @408
+    _ZNK16wxFoldWindowItem15GetWindowLengthEb @409
+    _ZNK16wxFoldWindowItem7GetTypeEv @410
+    _ZNK16wxFoldWindowItem8GetLineYEv @411
+    _ZNK17wxCaptionBarEvent12GetClassInfoEv @412
+    _ZNK17wxCaptionBarEvent13GetFoldStatusEv @413
+    _ZNK17wxCaptionBarEvent5CloneEv @414
+    _ZNK17wxCaptionBarEvent6GetTagEv @415
+    _ZNK17wxCaptionBarStyle14GetCaptionFontEv @416
+    _ZNK17wxCaptionBarStyle14GetFirstColourEv @417
+    _ZNK17wxCaptionBarStyle15CaptionFontUsedEv @418
+    _ZNK17wxCaptionBarStyle15FirstColourUsedEv @419
+    _ZNK17wxCaptionBarStyle15GetCaptionStyleEv @420
+    _ZNK17wxCaptionBarStyle15GetSecondColourEv @421
+    _ZNK17wxCaptionBarStyle16CaptionStyleUsedEv @422
+    _ZNK17wxCaptionBarStyle16SecondColourUsedEv @423
+    _ZNK17wxCaptionBarStyle17CaptionColourUsedEv @424
+    _ZNK17wxChildFocusEvent9GetWindowEv @425
+    _ZNK18wxBaseArrayPtrVoid4ItemEj @426
+    _ZNK18wxBaseArrayPtrVoid4sizeEv @427
+    _ZNK18wxBaseArrayPtrVoid8GetCountEv @428
+    _ZNK18wxBaseArrayPtrVoidixEj @429
+    _ZNK19wxNavigationEnabledI8wxWindowE12AcceptsFocusEv @430
+    _ZNK19wxNavigationEnabledI8wxWindowE23AcceptsFocusRecursivelyEv @431
+    _ZNK19wxNavigationEnabledI8wxWindowE24AcceptsFocusFromKeyboardEv @432
+    _ZNK19wxTopLevelWindowMSW12IsFullScreenEv @433
+    _ZNK19wxTopLevelWindowMSW19CanApplyThemeBorderEv @434
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E10IsMatchingERK14wxEventFunctor @435
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E12GetEvtMethodEv @436
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E13GetEvtHandlerEv @437
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E10IsMatchingERK14wxEventFunctor @438
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E12GetEvtMethodEv @439
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E13GetEvtHandlerEv @440
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E10IsMatchingERK14wxEventFunctor @441
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E12GetEvtMethodEv @442
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E13GetEvtHandlerEv @443
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E10IsMatchingERK14wxEventFunctor @444
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E12GetEvtMethodEv @445
+    _ZNK20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E13GetEvtHandlerEv @446
+    _ZNK20wxFoldPanelItemArray4ItemEj @447
+    _ZNK20wxFoldPanelItemArray4LastEv @448
+    _ZNK20wxFoldPanelItemArray5IndexEP15wxFoldPanelItemb @449
+    _ZNK20wxMDIParentFrameBase14GetActiveChildEv @450
+    _ZNK20wxNonOwnedWindowBase27AdjustForParentClientOriginERiS0_i @451
+    _ZNK20wxObjectEventFunctor10IsMatchingERK14wxEventFunctor @452
+    _ZNK20wxObjectEventFunctor12GetEvtMethodEv @453
+    _ZNK20wxObjectEventFunctor13GetEvtHandlerEv @454
+    _ZNK20wxTopLevelWindowBase10IsTopLevelEv @455
+    _ZNK20wxTopLevelWindowBase13OSXIsModifiedEv @456
+    _ZNK20wxTopLevelWindowBase19DoGetScreenPositionEPiS0_ @457
+    _ZNK20wxTopLevelWindowBase20ShouldPreventAppExitEv @458
+    _ZNK20wxTopLevelWindowBase21IsTopNavigationDomainEv @459
+    _ZNK20wxTopLevelWindowBase9IsVisibleEv @460
+    _ZNK21wxFoldWindowItemArray4ItemEj @461
+    _ZNK21wxFoldWindowItemArray4sizeEv @462
+    _ZNK21wxFoldWindowItemArray5IndexERK16wxFoldWindowItemb @463
+    _ZNK21wxFoldWindowItemArray8GetCountEv @464
+    _ZNK21wxFoldWindowItemArrayixEj @465
+    _ZNK22wxControlContainerBase23AcceptsFocusRecursivelyEv @466
+    _ZNK22wxControlContainerBase24AcceptsFocusFromKeyboardEv @467
+    _ZNK22wxScopedCharTypeBufferIwE4Data3GetEv @468
+    _ZNK22wxScopedCharTypeBufferIwE4dataEv @469
+    _ZNK22wxScopedCharTypeBufferIwEcvPKwEv @470
+    _ZNK6wxRect4GetXEv @471
+    _ZNK6wxRect8GetRightEv @472
+    _ZNK6wxRect8GetWidthEv @473
+    _ZNK6wxRect9GetBottomEv @474
+    _ZNK6wxRect9GetHeightEv @475
+    _ZNK6wxSize8GetWidthEv @476
+    _ZNK6wxSize9GetHeightEv @477
+    _ZNK7wxEvent12GetEventTypeEv @478
+    _ZNK7wxEvent14GetEventObjectEv @479
+    _ZNK7wxEvent17GetPropagatedFromEv @480
+    _ZNK7wxFrame10IsMDIChildEv @481
+    _ZNK7wxFrame16MSWGetActiveMenuEv @482
+    _ZNK8wxColour3RedEv @483
+    _ZNK8wxColour4BlueEv @484
+    _ZNK8wxColour5GreenEv @485
+    _ZNK8wxString5emptyEv @486
+    _ZNK8wxWindow11HasToolTipsEv @487
+    _ZNK8wxWindow11MSWFindItemElP6HWND__ @488
+    _ZNK8wxWindow12ContainsHWNDEP6HWND__ @489
+    _ZNK8wxWindow17MSWAdjustBrushOrgEPiS0_ @490
+    _ZNK8wxWindow27MSWHasInheritableBackgroundEv @491
+    _ZNK8wxWindow7GetHWNDEv @492
+    _ZNK8wxWindow9GetHandleEv @493
+    _ZNKSt9type_info4nameEv @494
+    _ZTI11wxFoldPanel @495 DATA
+    _ZTI11wxFrameBase @496 DATA
+    _ZTI11wxGDIObject @497 DATA
+    _ZTI11wxPanelBase @498 DATA
+    _ZTI11wxTrackable @499 DATA
+    _ZTI12wxCaptionBar @500 DATA
+    _ZTI12wxEvtHandler @501 DATA
+    _ZTI12wxWindowBase @502 DATA
+    _ZTI14wxCommandEvent @503 DATA
+    _ZTI14wxEventFunctor @504 DATA
+    _ZTI14wxFoldPanelBar @505 DATA
+    _ZTI15wxFoldPanelItem @506 DATA
+    _ZTI16wxNonOwnedWindow @507 DATA
+    _ZTI16wxTopLevelWindow @508 DATA
+    _ZTI17wxCaptionBarEvent @509 DATA
+    _ZTI18wxControlContainer @510 DATA
+    _ZTI19wxNavigationEnabledI8wxWindowE @511 DATA
+    _ZTI19wxTopLevelWindowMSW @512 DATA
+    _ZTI20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E @513 DATA
+    _ZTI20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E @514 DATA
+    _ZTI20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E @515 DATA
+    _ZTI20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E @516 DATA
+    _ZTI20wxMDIParentFrameBase @517 DATA
+    _ZTI20wxNonOwnedWindowBase @518 DATA
+    _ZTI20wxObjectEventFunctor @519 DATA
+    _ZTI20wxThreadHelperThread @520 DATA
+    _ZTI20wxTopLevelWindowBase @521 DATA
+    _ZTI21wxMDIClientWindowBase @522 DATA
+    _ZTI22wxControlContainerBase @523 DATA
+    _ZTI24wxEventBasicPayloadMixin @524 DATA
+    _ZTI7wxEvent @525 DATA
+    _ZTI7wxFrame @526 DATA
+    _ZTI7wxPanel @527 DATA
+    _ZTI8wxObject @528 DATA
+    _ZTI8wxThread @529 DATA
+    _ZTI8wxWindow @530 DATA
+    _ZTI9wxPenBase @531 DATA
+    _ZTIN9wxPrivate11HandlerImplI12wxEvtHandler7wxEventLb1EEE @532 DATA
+    _ZTS11wxFoldPanel @533 DATA
+    _ZTS11wxFrameBase @534 DATA
+    _ZTS11wxGDIObject @535 DATA
+    _ZTS11wxPanelBase @536 DATA
+    _ZTS11wxTrackable @537 DATA
+    _ZTS12wxCaptionBar @538 DATA
+    _ZTS12wxEvtHandler @539 DATA
+    _ZTS12wxWindowBase @540 DATA
+    _ZTS14wxCommandEvent @541 DATA
+    _ZTS14wxEventFunctor @542 DATA
+    _ZTS14wxFoldPanelBar @543 DATA
+    _ZTS15wxFoldPanelItem @544 DATA
+    _ZTS16wxNonOwnedWindow @545 DATA
+    _ZTS16wxTopLevelWindow @546 DATA
+    _ZTS17wxCaptionBarEvent @547 DATA
+    _ZTS18wxControlContainer @548 DATA
+    _ZTS19wxNavigationEnabledI8wxWindowE @549 DATA
+    _ZTS19wxTopLevelWindowMSW @550 DATA
+    _ZTS20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E @551 DATA
+    _ZTS20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E @552 DATA
+    _ZTS20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E @553 DATA
+    _ZTS20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E @554 DATA
+    _ZTS20wxMDIParentFrameBase @555 DATA
+    _ZTS20wxNonOwnedWindowBase @556 DATA
+    _ZTS20wxObjectEventFunctor @557 DATA
+    _ZTS20wxThreadHelperThread @558 DATA
+    _ZTS20wxTopLevelWindowBase @559 DATA
+    _ZTS21wxMDIClientWindowBase @560 DATA
+    _ZTS22wxControlContainerBase @561 DATA
+    _ZTS24wxEventBasicPayloadMixin @562 DATA
+    _ZTS7wxEvent @563 DATA
+    _ZTS7wxFrame @564 DATA
+    _ZTS7wxPanel @565 DATA
+    _ZTS8wxObject @566 DATA
+    _ZTS8wxThread @567 DATA
+    _ZTS8wxWindow @568 DATA
+    _ZTS9wxPenBase @569 DATA
+    _ZTSN9wxPrivate11HandlerImplI12wxEvtHandler7wxEventLb1EEE @570 DATA
+    _ZTV11wxFoldPanel @571 DATA
+    _ZTV12wxCaptionBar @572 DATA
+    _ZTV14wxFoldPanelBar @573 DATA
+    _ZTV15wxFoldPanelItem @574 DATA
+    _ZTV17wxCaptionBarEvent @575 DATA
+    _ZTV18wxControlContainer @576 DATA
+    _ZTV19wxNavigationEnabledI8wxWindowE @577 DATA
+    _ZTV20wxEventFunctorMethodI14wxEventTypeTagI10wxKeyEventE12wxEvtHandler7wxEventS3_E @578 DATA
+    _ZTV20wxEventFunctorMethodI14wxEventTypeTagI11wxSizeEventE12wxEvtHandler7wxEventS3_E @579 DATA
+    _ZTV20wxEventFunctorMethodI14wxEventTypeTagI12wxMouseEventE12wxEvtHandler7wxEventS3_E @580 DATA
+    _ZTV20wxEventFunctorMethodI14wxEventTypeTagI12wxPaintEventE12wxEvtHandler7wxEventS3_E @581 DATA
+    _ZTV20wxMDIParentFrameBase @582 DATA
+    _ZTV20wxObjectEventFunctor @583 DATA
+    _ZTV20wxThreadHelperThread @584 DATA
+    _ZTV21wxMDIClientWindowBase @585 DATA
+    _ZTV9wxPenBase @586 DATA
+    _nm___ZN11wxClassInfo8sm_firstE @587 DATA
+    _nm___ZN14wxCommandEvent12ms_classInfoE @588 DATA
+    _nm___ZN7wxPanel12ms_classInfoE @589 DATA
+    _nm___ZN8wxString4nposE @590 DATA
+    _nm___ZN8wxWindow13sm_eventTableE @591 DATA
+    _nm___ZTV10wxClientDC @592 DATA
+    _nm___ZTV10wxFontBase @593 DATA
+    _nm___ZTV10wxWindowDC @594 DATA
+    _nm___ZTV11wxGDIObject @595 DATA
+    _nm___ZTV11wxImageList @596 DATA
+    _nm___ZTV11wxPanelBase @597 DATA
+    _nm___ZTV12wxColourBase @598 DATA
+    _nm___ZTV14wxCommandEvent @599 DATA
+    _nm___ZTV14wxEventFunctor @600 DATA
+    _nm___ZTV17wxMDIClientWindow @601 DATA
+    _nm___ZTV22wxControlContainerBase @602 DATA
+    _nm___ZTV4wxDC @603 DATA
+    _nm___ZTV5wxPen @604 DATA
+    _nm___ZTV6wxFont @605 DATA
+    _nm___ZTV7wxEvent @606 DATA
+    _nm___ZTV7wxPanel @607 DATA
+    _nm___ZTV8wxColour @608 DATA
+    _nm___ZTV8wxObject @609 DATA
+    _nm___ZTV8wxWindow @610 DATA
+    _nm___ZTV9wxPaintDC @611 DATA
+    _nm__wxConvLibcPtr @612 DATA
+    _nm__wxDefaultPosition @613 DATA
+    _nm__wxDefaultSize @614 DATA
+    _nm__wxEVT_AUX1_DCLICK @615 DATA
+    _nm__wxEVT_AUX1_DOWN @616 DATA
+    _nm__wxEVT_AUX1_UP @617 DATA
+    _nm__wxEVT_AUX2_DCLICK @618 DATA
+    _nm__wxEVT_AUX2_DOWN @619 DATA
+    _nm__wxEVT_AUX2_UP @620 DATA
+    _nm__wxEVT_CHAR @621 DATA
+    _nm__wxEVT_CHILD_FOCUS @622 DATA
+    _nm__wxEVT_ENTER_WINDOW @623 DATA
+    _nm__wxEVT_LEAVE_WINDOW @624 DATA
+    _nm__wxEVT_LEFT_DCLICK @625 DATA
+    _nm__wxEVT_LEFT_DOWN @626 DATA
+    _nm__wxEVT_LEFT_UP @627 DATA
+    _nm__wxEVT_MENU @628 DATA
+    _nm__wxEVT_MIDDLE_DCLICK @629 DATA
+    _nm__wxEVT_MIDDLE_DOWN @630 DATA
+    _nm__wxEVT_MIDDLE_UP @631 DATA
+    _nm__wxEVT_MOTION @632 DATA
+    _nm__wxEVT_MOUSEWHEEL @633 DATA
+    _nm__wxEVT_NAVIGATION_KEY @634 DATA
+    _nm__wxEVT_NULL @635 DATA
+    _nm__wxEVT_PAINT @636 DATA
+    _nm__wxEVT_RIGHT_DCLICK @637 DATA
+    _nm__wxEVT_RIGHT_DOWN @638 DATA
+    _nm__wxEVT_RIGHT_UP @639 DATA
+    _nm__wxEVT_SET_FOCUS @640 DATA
+    _nm__wxEVT_SIZE @641 DATA
+    _nm__wxEVT_UPDATE_UI @642 DATA
+    _nm__wxNullBitmap @643 DATA
+    _nm__wxPanelNameStr @644 DATA
+    _nm__wxTheAssertHandler @645 DATA
+    _nm__wxTrapInAssert @646 DATA
+    wxEVT_CAPTIONBAR @647 DATA
